@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Online enquiries</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="assets/imgs/fav.png">
+<link rel="stylesheet" href="assets/css/w3.css">
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/font-awesome/css/all.css">
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/utils.js"></script>
+</head>
+<body>
+    <div class="content-index">
+        <div class="menu_form">
+          <img src="assets/imgs/np_logo.png" class="login_logo w3-animate-opacity">
+          <br>
+          
+          <div class="inner_menu">
+            <p class="index_title">Welcome to Northport Online Enquiries</p>
+    
+            <a class="btn_link" href="enq_container.php">Container Enquiry</a>
+            <a class="btn_link" href="enq_ship_schedule.php">Ship Schedule Enquiry</a>
+            <a class="btn_link" href="enq_electronic_do.php">Electronic DO Enquiry</a>
+            <a class="btn_link" href="enq_export_booking.php">Export Booking Enquiry</a>
+            <a class="btn_link" href="enq_cls-ndsb.php">CLS-NDSB : Container Enquiry</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <p>
+          Copyright © <span id="var_year">2024</span> <a href="#">Northport (M) Bhd</a>. All rights reserved.
+        </p>
+      </div>
+      <script>
+        var todayYear = new Date().getFullYear();
+        document.getElementById("var_year").innerHTML = todayYear;
+      </script>
+</body>
+</html>
